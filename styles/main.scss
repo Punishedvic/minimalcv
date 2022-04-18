@@ -1,6 +1,34 @@
+@use "_text.scss";
+@use "_images.scss";
+@use "_layout.scss";
+.flex-column-center {
+    margin-top: 2rem;
+}
+
 body {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 60vw;
+    width: 70vw;
+    margin: 0 auto;
+}
+
+.icons {
+    width: 60%;
+    margin: 2rem auto;
+    font-size: 1.5rem;
+    & i {
+        transition: all 1s;
+        color: rgb(119, 119, 119);
+        &:hover {
+            color: rgb(70, 70, 70);
+            transform: translateY(0.5rem);
+        }
+    }
+}
+
+.numbers {
+    justify-content: space-evenly;
+    line-height: 1.5;
+    &-data {
+        margin: 0 1rem;
+        max-width: 32%;
+    }
 }

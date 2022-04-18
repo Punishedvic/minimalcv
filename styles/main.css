@@ -1,0 +1,96 @@
+.title, .title-numbers {
+  font-family: Helvetica, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1.5;
+  font-size: 1.6rem;
+  font-family: "Oswald", sans-serif;
+  text-align: center;
+  margin: 0.5rem;
+  color: rgb(29, 29, 29);
+  letter-spacing: 0.08rem;
+}
+.title-numbers {
+  font-size: 1.3rem;
+}
+
+.role {
+  font-family: Helvetica, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1.5;
+  line-height: 0.5;
+  text-align: center;
+  font-size: 1rem;
+  color: rgb(155, 155, 155);
+}
+
+.space {
+  line-height: 1.2;
+  font-size: 0.9rem;
+  letter-spacing: 1.1;
+}
+
+.title-numbers {
+  margin: 1rem 0 0.5rem 0;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(119, 177, 92);
+  font-weight: bold;
+}
+
+.profile, .profile-pic {
+  width: 6rem;
+  margin: 0.5rem auto;
+}
+.profile-pic {
+  border-radius: 50%;
+}
+
+.flex, .flex-space, .flex-column {
+  display: flex;
+}
+.flex-column {
+  flex-direction: column;
+}
+.flex-column-center {
+  justify-content: center;
+  align-items: center;
+}
+.flex-space {
+  justify-content: space-around;
+}
+
+.flex-column-center {
+  margin-top: 2rem;
+}
+
+body {
+  width: 70vw;
+  margin: 0 auto;
+}
+
+.icons {
+  width: 60%;
+  margin: 2rem auto;
+  font-size: 1.5rem;
+}
+.icons i {
+  transition: all 1s;
+  color: rgb(119, 119, 119);
+}
+.icons i:hover {
+  color: rgb(70, 70, 70);
+  transform: translateY(0.5rem);
+}
+
+.numbers {
+  justify-content: space-evenly;
+  line-height: 1.5;
+}
+.numbers-data {
+  margin: 0 1rem;
+  max-width: 32%;
+}/*# sourceMappingURL=main.css.map */

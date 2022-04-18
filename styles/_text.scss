@@ -1,0 +1,52 @@
+$font: 'Oswald',
+sans-serif;
+$font-main-color: rgb(29, 29, 29);
+$font-secondary-color: rgb(155, 155, 155);
+@mixin text {
+    font-family: Helvetica, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.5;
+}
+
+@mixin title {
+    font-size: 1.6rem;
+    font-family: $font;
+    text-align: center;
+    margin: 0.5rem;
+    color: $font-main-color;
+    letter-spacing: 0.08rem;
+}
+
+.title {
+    @include text;
+    @include title;
+    &-numbers {
+        @extend .title;
+        font-size: 1.3rem;
+    }
+}
+
+.role {
+    @include text;
+    line-height: 0.5;
+    text-align: center;
+    font-size: 1rem;
+    color: $font-secondary-color
+}
+
+.space {
+    line-height: 1.2;
+    font-size: 0.9rem;
+    letter-spacing: 1.1;
+}
+
+.title-numbers {
+    margin: 1rem 0 0.5rem 0;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(119, 177, 92);
+    font-weight: bold;
+}

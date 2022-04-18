@@ -1,0 +1,12 @@
+@mixin profile {
+    width: 6rem;
+}
+
+.profile {
+    @include profile;
+    margin: 0.5rem auto;
+    &-pic {
+        @extend .profile;
+        border-radius: 50%;
+    }
+}
